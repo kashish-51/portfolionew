@@ -1,0 +1,20 @@
+.animate-heart {
+    color: red; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+  }
+  
+  @keyframes example {
+    0%   { color: rgb(159, 0, 216); }
+    25%  { color: rgb(196, 68, 255); }
+    50%  { color: rgb(255, 62, 252); }
+    100% { color: rgb(255, 147, 248); }
+  }
+ 
+  .footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem; /* Adjust padding as necessary */
+  }

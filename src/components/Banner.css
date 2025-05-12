@@ -1,0 +1,83 @@
+.banner {
+    margin-top: 0;
+    padding: 100px 50px 100px 0;
+    
+   
+  }
+  .banner .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.3) 111.58%);
+    backdrop-filter: blur(10px); /* Adding blur effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    border: 0px solid rgba(255, 255, 255, 0.5); /* Optional transparent border */
+    font-size: 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border-radius: 12px; /* Rounded corners for a more glass-like appearance */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    font-family: cursive; /* Apply generic cursive font */
+  }
+
+  .banner h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .banner p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  .banner img {
+    margin-top: 50px;
+    animation: updown 3s linear infinite;
+  }
+  .social-options{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px; 
+    
+
+
+ 
+  }
+  .social-options a {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin-left: 15px;
+
+     
+
+  }
+  
+  .social-options a:hover {
+    color: fuchsia;
+
+  }

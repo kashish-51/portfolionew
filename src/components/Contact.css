@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textContainer h1 {
+  font-size: 80px;
+  line-height: 88px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.textContainer span {
+  font-weight: 300;
+  margin-left: 35px;
+}
+
+.textContainer .item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textContainer .icon {
+  color: rgb(226, 29, 226);
+  transition: color 0.3s ease-in-out;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.textContainer .icon:hover {
+  color: rgb(146, 0, 146);
+}
+
+.textContainer .display {
+  display: flex;
+}
+
+.formContainer {
+  flex: 1;
+  position: relative;
+  margin-top: 20px;
+
+}
+
+.formContainer .phoneSvg {
+  position: absolute;
+  margin: auto;
+  z-index: 0;
+}
+
+.formContainer .phoneSvg svg {
+  width: 450px;
+  height: 450px;
+}
+
+.formContainer .phoneSvg .gradient-stroke {
+  stroke: url(#gradientStroke);
+}
+
+.formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1;
+}
+
+.formContainer form input,
+.formContainer form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+  pointer-events: auto;
+  user-select: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.formContainer form textarea {
+  height: 200px;
+  resize: none;
+}
+
+.formContainer form button {
+  max-width: 500px;
+  padding: 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.formContainer form button:hover {
+  background-color: rgb(179, 0, 255);
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  .contact {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .textContainer h1 {
+    font-size: 36px;
+  }
+
+  .formContainer form input,
+  .formContainer form textarea {
+    padding: 10px;
+  }
+
+  .formContainer form button {
+    padding: 10px;
+  }
+
+  .textContainer .display {
+    justify-content: center;
+  }
+  .formContainer .phoneSvg svg {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+
+}
