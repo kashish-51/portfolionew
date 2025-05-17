@@ -1,7 +1,6 @@
 import React from "react";
 import bgGif from "../assets/bubbles.gif";
 
-
 const skills = [
   "ReactJS",
   "Node.js",
@@ -22,7 +21,8 @@ const skills = [
 const Skills = () => {
   return (
     <div
-      className="relative h-fit py-20 flex items-center justify-center"   id="skills"
+      className="relative h-fit py-20 flex items-center justify-center"
+      id="skills"
       style={{
         backgroundImage: `url(${bgGif})`,
         backgroundSize: "cover",
@@ -31,7 +31,7 @@ const Skills = () => {
     >
       <div className="absolute inset-0 bg-black opacity-70 z-0" />
 
-      <div className="relative z-10 flex flex-col items-center px-4 w-full max-w-6xl">
+      <div className="relative z-[1] flex flex-col items-center px-4 w-full max-w-6xl">
         <h2 className="text-white text-3xl sm:text-4xl font-bold mb-10 tracking-wide text-center">
           My Technical Skills
         </h2>
