@@ -22,7 +22,7 @@ const skills = [
 const Skills = () => {
   return (
     <div
-      className="relative h-fit py-20 flex items-center justify-center"
+      className="relative h-fit py-20 flex items-center justify-center"   id="skills"
       style={{
         backgroundImage: `url(${bgGif})`,
         backgroundSize: "cover",
