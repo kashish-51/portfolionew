@@ -31,7 +31,7 @@ const Navbar = () => {
     <nav className="bg-white bg-opacity-10 backdrop-blur-lg shadow-lg border border-opacity-30 border-white rounded-md text-white fixed w-full z-10">
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <div className="text-3xl font-bold">
-          ARNA<span className="text-fuchsia-600">V</span>
+          KASHIS<span className="text-fuchsia-600">H</span>
         </div>
         
         {/* Hamburger Menu Icon */}
@@ -61,7 +61,7 @@ const Navbar = () => {
           <li><a href="#projects" className="hover-gradient-bg">My work</a></li>
           <li><a href="#experience" className="hover-gradient-bg">Experience</a></li>
           <li>
-            <a href="/resume.pdf" download="Arnav_Singh_Resume.pdf" className="hover-gradient-bg">
+            <a href="/My_resume.pdf" download="Kashish_Singh_Resume.pdf" className="hover-gradient-bg">
               Resume
             </a>
           </li>
@@ -85,7 +85,7 @@ const Navbar = () => {
             <li><a href="#projects" className="hover-gradient-bg w-full text-center">My work</a></li>
             <li><a href="#experience" className="hover-gradient-bg w-full text-center">Experience</a></li>
             <li>
-              <a href="/resume.pdf" download="Arnav_Singh_Resume.pdf" className="hover-gradient-bg w-full text-center">
+              <a href="/My_resume.pdf" download="Kashish_Singh_Resume.pdf" className="hover-gradient-bg w-full text-center">
                 Resume
               </a>
             </li>

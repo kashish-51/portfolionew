@@ -6,35 +6,17 @@ import { motion } from 'framer-motion';
 // Example Timeline Data
 const timelineData = [
   {
-    date: '2023',
-    title: 'Senior Developer at XYZ Company',
-    description: 'Developed and maintained web applications using React, Node.js, and MongoDB.',
+    date: '2024',
+    title: 'Frontend Developer at Coding Community',
+    description: 'Developed and maintained web applications using React, NodBuilt user interfaces for a job application platform using React and Tailwind CSS, focusing on responsive design, reusable components, and smooth user experience.e.js, and MongoDB.',
     icon: '💻',
   },
   {
     date: '2022',
-    title: 'Frontend Developer at ABC Corp',
-    description: 'Led the front-end team to build a scalable e-commerce platform using React and Redux.',
-    icon: '🛒',
-  },
-  {
-    date: '2022',
-    title: 'Frontend Developer at ABC Corp',
-    description: 'Led the front-end team to build a scalable e-commerce platform using React and Redux.',
-    icon: '🛒',
-  },
-  {
-    date: '2022',
-    title: 'Frontend Developer at ABC Corp',
-    description: 'Led the front-end team to build a scalable e-commerce platform using React and Redux.',
-    icon: '🛒',
-  },
-  {
-    date: '2022',
-    title: 'Frontend Developer at ABC Corp',
-    description: 'Led the front-end team to build a scalable e-commerce platform using React and Redux.',
-    icon: '🛒',
-  },
+    title: 'Web Developer at Infotrix',
+    description: 'Developed a quiz application using HTML, CSS, JavaScript for the frontend and Node.js, Express, MongoDB for the backend. Handled user data, quiz logic, and ensured smooth integration between frontend and backend.',
+    icon: '📱',
+  }
   // Add more experiences here...
 ];
 

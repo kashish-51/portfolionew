@@ -82,7 +82,7 @@ export const Banner = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1, duration: 1 }}
                   >
-                    {`Hi! I'm Arnav`}
+                    {`Hi! I'm Kashish`}
                   </motion.h1>
                   <motion.h1
                     className="text-red-50 bg-gradient-to-r from-fuchsia-600 to-fuchsia-950 bg-clip-text text-transparent"
@@ -99,14 +99,14 @@ export const Banner = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 2, duration: 1 }}
                   >
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Who enjoys creating clean, interactive, and user-focused web experiences. I'm driven by a 
                   </motion.p>
                   <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 2.5, duration: 1 }}
                   >
-                    Lorem Ipsum has been
+                     passion for design, detail, and seamless user journeys.
                   </motion.p>
                   <motion.button
                     onClick={handleConnectClick}
@@ -126,7 +126,7 @@ export const Banner = () => {
                       transition={{ duration: 0.5 }}
                     >
                       <motion.a
-                        href="https://www.linkedin.com/in/arnav-singh-75b846271/"
+                        href="https://www.linkedin.com/in/kashish-singh-28a2a825a/"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.2 }}
@@ -136,7 +136,7 @@ export const Banner = () => {
                         <FaLinkedin size={25} />
                       </motion.a>
                       <motion.a
-                        href="https://github.com/annoy004"
+                        href="https://github.com/kashish-51"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.2 }}
@@ -146,7 +146,7 @@ export const Banner = () => {
                         <FaGithub size={25} />
                       </motion.a>
                       <motion.a
-                        href="mailto:avsingh02as02@gmail.com"
+                        href="mailto:singhkashish14203@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.2 }}

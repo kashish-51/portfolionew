@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import { Banner } from './components/Banner';
 import Marquee from './components/marquee';
 import Marqueee from './components/Marqueee';
-import Marqueeee from './components/Marqueeee';
+import Skills from './components/Skills';
 import Contactme from './components/Contactme';
 import Projects from './components/Projects';
 import Loader from './components/Loader';
@@ -29,12 +29,12 @@ const App = () => {
         <>
           <Navbar />
           <Banner />
-          <Marquee />
-          <Marqueee />
-          <Marqueeee />
+          {/* <Marquee />
+          <Marqueee /> */}
+          <Skills/>
           <Projects />
           <GitHubContributions/>
-          <GitHubStats username="annoy004" />
+          <GitHubStats username="kashish-51" />
           <ExperienceSection/>
           <Contactme />
         </>

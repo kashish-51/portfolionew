@@ -32,7 +32,7 @@ const GitHubContributions = () => {
                 }}
             >
                 <GitHubCalendar
-                    username="annoy004"
+                    username="kashish-51"
                     blockSize={16}
                     blockMargin={4}
                     color="hsl(265, 100%, 70%)" // A simple purple color scheme

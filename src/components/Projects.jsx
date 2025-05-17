@@ -78,9 +78,11 @@ const Projects = () => {
                     <img className="w-full h-full" src={img1} alt="" />
                   </div>
                   <div className="flip-card-back">
-                    <h1>John Doe</h1>
-                    <p>Architect & Engineer Lorem ipsum dolor sit amet consectetur adipisicinsimus minus quibusdam quae aperiam. Voluptas, sequi totam.</p>
-                    <button>See project</button>
+                    <h1>Pokedex</h1>
+                    <p>A responsive Pokémon directory built with React and Tailwind CSS, displaying all Pokémon with clean UI and dynamic data.</p>
+                    <a href="https://xiv-tech-nhgj.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <button className="your-button-class">See Project</button>
+</a>
                   </div>
                 </div>
               </div>
@@ -91,10 +93,11 @@ const Projects = () => {
                     <img className="w-full h-full" src={img2} alt="" />
                   </div>
                   <div className="flip-card-back">
-                    <h1>John Moe</h1>
-                    <p>Architect & Engineer Lorem ipsum dolor sit amet consectetur adipisicinsimus minus quibusdam quae aperiam. Voluptas, sequi totam.</p>
-                    <button>See project</button>
-                  </div>
+                    <h1>ChocolateTiffin</h1>
+                    <p>Developed the backend for a cake ordering website using Node.js, Express, and MongoDB, handling product management, user data, and order processing.</p>
+<a href="https://chocolatetiffin.onrender.com/" target="_blank" rel="noopener noreferrer">
+  <button className="your-button-class">See Project</button>
+</a>                  </div>
                 </div>
               </div>
 
@@ -106,9 +109,11 @@ const Projects = () => {
                     <img className="w-full h-full" src={img3} alt="" />
                   </div>
                   <div className="flip-card-back">
-                    <h1>John Poe</h1>
-                    <p>Architect & Engineer Lorem ipsum dolor sit amet consectetur adipisicinsimus minus quibusdam quae aperiam. Voluptas, sequi totam.</p>
-                    <button>See project</button>
+                    <h1>Todo Application</h1>
+                    <p>A fullstack task manager built with the MERN stack (MongoDB, Express, React, Node.js). It allows users to add, update, and delete tasks with real-time updates and a clean, responsive UI.</p>
+                     <a href="https://github.com/kashish-51/innov_2024_sysntax_sensation" target="_blank" rel="noopener noreferrer">
+  <button className="your-button-class">See Project</button>
+</a>
                   </div>
                 </div>
               </div>
@@ -119,10 +124,11 @@ const Projects = () => {
                     <img className="w-full h-full" src={img4} alt="" />
                   </div>
                   <div className="flip-card-back">
-                    <h1>John Loe</h1>
-                    <p>Architect & Engineer Lorem ipsum dolor sit amet consectetur adipisicinsimus minus quibusdam quae aperiam. Voluptas, sequi totam.</p>
-                    <button>See project</button>
-                  </div>
+                    <h1>LandingPage</h1>
+                    <p>A simple and smooth landing page built with React and Framer Motion for clean animations and responsive UI</p>
+   <a href="https://credex-nine.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <button className="your-button-class">See Project</button>
+</a>                  </div>
                 </div>
               </div>
 
